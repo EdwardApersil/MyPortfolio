@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    <li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End of Navigation Bar-->
+
+
+    <!--Hero Section-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Hello, I'm <span class="text-primary text-lg">Edward Apersil</span></h1>
+                    <p class="lead my-4 ">I'm a web developer and I love to create awesome things.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Minima, rem animi ad sunt fugit voluptatum a recusandae dolorem perferendis 
+                        laborum ex id. 
+                        Fugiat cumque praesentium ad. Fugiat aliquid iusto autem.
+                    </p>
+                    <button class="btn btn-warning btn-lg">Hire Me</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/resources/images/man.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Boxes-->
+    <section class="p-5">
+        <H1 class="text-center p-2 ">MY TEAM</H1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                   <div>
+                   </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/images/student.png" class="card-img-top bg-info" alt="...">
+                        <div class="card-body">
+                          <p class="card-text bg-secondary text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/images/man (1).png" class="card-img-top bg-info" alt="...">
+                        <div class="card-body">
+                          <p class="card-text bg-secondary text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/images/woman.png" class="card-img-top bg-info" alt="...">
+                        <div class="card-body">
+                          <p class="card-text bg-secondary text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WORKS-->
+    <section class="p-5 bg-dark">
+        <h1 class="text-center p-3 text-white">MY WORKS</h1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/images/yoga2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Flyer for Gara & Guru</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#form" class="btn btn-warning">Check this out</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md ms-auto">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/images/Yoga3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Flyer for Gara & Guru</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#form" class="btn btn-warning">Check this out</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact Page-->
+    <form class="p-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputContact" class="form-label">Contact</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-warning" id="thanks">Submit</button>
+    </form>
+
+
+    <!--Footer-->
+    <footer class="bg-dark text-center text-white p-4">
+        @copyright 2022, Edward Apersil
+    </footer>
+
+</body>
+</html>  
